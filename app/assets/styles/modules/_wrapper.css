@@ -10,6 +10,15 @@
     max-width: 976px;
   }
 
+  &--medium-large {
+    max-width: 1136px;
+   /* max-width: 976px; */
+  }
+
+  &--medium-larger {
+    max-width: 1198px;
+  }
+
   .wrapper {
     padding-left: 0;
     padding-right: 0;
@@ -20,6 +29,26 @@
 
     @mixin atSmall {
       margin-bottom: 3.875rem;
+    }
+  }
+
+  &--no-padding-until-medium {
+    padding-left: 0;
+    padding-right: 0;
+
+    @mixin atMedium {
+      padding-left: 18px;
+      padding-right: 18px;
+    }
+  }
+
+  &--no-padding-until-large {
+    padding-left: 0;
+    padding-right: 0;
+
+    @mixin atLarge {
+      padding-left: 18px;
+      padding-right: 18px;
     }
   }
 }

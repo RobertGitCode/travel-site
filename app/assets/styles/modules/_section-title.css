@@ -22,9 +22,12 @@
       margin-left: 0;
       display: inline-block;
       margin-bottom: 0;
-      /* Move the image down */
-      /* margin-bottom: .2em;
-      vertical-align: middle; */
+      position: relative;
+      top: 8px;
     }
+  }
+
+  &--blue {
+    color: $mainBlue;
   }
 }
