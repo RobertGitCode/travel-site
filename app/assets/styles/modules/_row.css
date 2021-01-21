@@ -94,7 +94,7 @@
   }
 
   /* Begin Equal Height Rules */
-  @mixin atMedium {
+/*   @mixin atMedium {
     &--equal-height-at-medium {
       display: flex;
     }
@@ -103,10 +103,22 @@
       float: none;
       display: flex;
     }
-  }
+  } */
 
-  @mixin atLarge {
+/*   @mixin atLarge {
     &--equal-height-at-large {
+      display: flex;
+    }
+
+    & > div {
+      float: none;
+      display: flex;
+    }
+  } */
+
+  &--equal-height-at-large {
+
+    @mixin atLarge {
       display: flex;
     }
 
