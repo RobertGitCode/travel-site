@@ -6,12 +6,13 @@ const postCSSPlugins = [
   require('postcss-mixins'),
   require('postcss-simple-vars'),
   require('postcss-nested'),
-  require('autoprefixer')
+  require('autoprefixer'),
+  require('postcss-hexrgba')
 ]
 
 module.exports = {
   devtool: 'eval-source-map',
-  entry: './app/assets/scripts/app.js',
+  entry: './app/assets/scripts/App.js',
   output: {
     filename: 'bundled.js',
     path: path.resolve(__dirname, 'app')

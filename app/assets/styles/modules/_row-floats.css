@@ -1,3 +1,4 @@
+
 .row {
   @mixin clearfix;
 
@@ -94,37 +95,26 @@
   }
 
   /* Begin Equal Height Rules */
-/*   @mixin atMedium {
-    &--equal-height-at-medium {
+  &--equal-height-at-medium {
+    @mixin atMedium {
       display: flex;
-    }
 
-    & > div {
-      float: none;
-      display: flex;
+      & > div {
+        float: none;
+        display: flex;
+      }
     }
-  } */
-
-/*   @mixin atLarge {
-    &--equal-height-at-large {
-      display: flex;
-    }
-
-    & > div {
-      float: none;
-      display: flex;
-    }
-  } */
+  }
 
   &--equal-height-at-large {
 
     @mixin atLarge {
       display: flex;
-    }
 
-    & > div {
-      float: none;
-      display: flex;
+      & > div {
+        float: none;
+        display: flex;
+      }
     }
   }
 

@@ -18,10 +18,28 @@
 }
 
 /* Clearfix */
+/* used for column layout  */
 @define-mixin clearfix {
   &::after {
     content: "";
     clear: both;
     display: table;
   }
+}
+
+/* Animations */
+@define-mixin animationSlow {
+  transition: all 1s ease-out;
+}
+
+@define-mixin animationMedium {
+  transition: all .3s ease-out;
+}
+
+@define-mixin animationMediumFast {
+  transition: all .2s ease-out;
+}
+
+@define-mixin animationFast {
+  transition: all .1s ease-out;
 }
