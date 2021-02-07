@@ -15,7 +15,7 @@ function StopTransitions() {
   }, 100);
 }
 
-window.addEventListener('resize', StopTransitions);
+window.addEventListener("resize", StopTransitions);
 window.addEventListener("load", StopTransitions);
 
 export default StopTransitions;

@@ -16,14 +16,6 @@ body {
   transition: none !important;
 }
 
-.resize * {
-  -webkit-transition: none !important;
-  -moz-transition: none !important;
-  -ms-transition: none !important;
-  -o-transition: none !important;
-  transition: none !important;
-}
-
 img {
   max-width: 100%;
   height: auto;
